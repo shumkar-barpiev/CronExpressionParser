@@ -8,7 +8,7 @@ public class Day extends Base implements CronExpression {
     public Day(String expression) {
         super(expression);
         this.maximumRange = 31;
-        this.minimumRange = 0;
+        this.minimumRange = 1;
     }
 
     @Override
@@ -91,6 +91,7 @@ public class Day extends Base implements CronExpression {
             return "day " + result;
         } else if (
                 Pattern.matches("[0-9]{2},[0-9]", expression) ||
+                        Pattern.matches("[0-9],[0-9]", expression) ||
                         Pattern.matches("[0-9]{2},[0-9]{2}", expression)
 
         ) {

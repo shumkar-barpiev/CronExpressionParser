@@ -18,11 +18,11 @@ public class Main {
         System.out.println("\n\n\nTest 1: \t\t" + test1.getExpression() +"\n");
         test1.processingExpression(test1);
         System.out.println("\n\n\nTest 2: \t\t"+ test2.getExpression()+"\n");
-        test1.processingExpression(test2);
+        test2.processingExpression(test2);
         System.out.println("\n\n\nTest 3: \t\t"+ test3.getExpression()+"\n");
-        test1.processingExpression(test3);
+        test3.processingExpression(test3);
         System.out.println("\n\n\nTest 4: \t\t"+ test4.getExpression()+"\n");
-        test1.processingExpression(test4);
+        test4.processingExpression(test4);
 
 
     }
@@ -84,7 +84,7 @@ class CronExpressionParser{
                                                     if(dayOfTheWeek.controlRange(dayOfTheWeek.expressionString)){
                                                         System.out.println(minute.getResult(minute.expressionString));
                                                         System.out.println(hour.getResult(hour.expressionString));
-                                                        System.out.println(dayOfTheMonth.getResult(dayOfTheWeek.expressionString));
+                                                        System.out.println(dayOfTheMonth.getResult(dayOfTheMonth.expressionString));
                                                         System.out.println(month.getResult(month.expressionString));
                                                         System.out.println(dayOfTheWeek.getResult(dayOfTheWeek.expressionString));
                                                         System.out.println("command " + obj.command);
@@ -143,7 +143,7 @@ class CronExpressionParser{
                                                             if(year.controlRange(year.expressionString)){
                                                                 System.out.println(minute.getResult(minute.expressionString));
                                                                 System.out.println(hour.getResult(hour.expressionString));
-                                                                System.out.println(dayOfTheMonth.getResult(dayOfTheWeek.expressionString));
+                                                                System.out.println(dayOfTheMonth.getResult(dayOfTheMonth.expressionString));
                                                                 System.out.println(month.getResult(month.expressionString));
                                                                 System.out.println(dayOfTheWeek.getResult(dayOfTheWeek.expressionString));
                                                                 System.out.println(year.getResult(year.expressionString));
