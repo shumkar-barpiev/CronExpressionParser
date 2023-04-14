@@ -99,7 +99,7 @@ public class Day extends Base implements CronExpression {
             int month = Integer.parseInt(segments[0]);
             int day = Integer.parseInt(segments[1]);
 
-            return "day of month" + month + " " + day;
+            return "day of month " + month + " " + day;
         } else if (
                 Pattern.matches("[0-9]{2}", expression) ||
                         Pattern.matches("[0-9]", expression)
