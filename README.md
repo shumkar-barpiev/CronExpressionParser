@@ -1,14 +1,17 @@
 # CronExpressionParser
 
+This project written in java programming language. You can run this project by Main.java.
 
-Test 1: 		*/15 0 1,5 * 1-5 /usr/bin/find/get
 
-minute 0 15 30 45 
-hour 0
-day 1 2 3 4 5 
-month 0 1 2 3 4 5 6 7 8 9 10 11 12 
-day of week 1 2 3 4 5 
-command /usr/bin/find/get
+<hr>
+Test 1: 		*/15 0 1,5 * 1-5 /usr/bin/find/get<br>
+
+minute 0 15 30 45 <br>
+hour 0<br>
+day 1 2 3 4 5 <br>
+month 0 1 2 3 4 5 6 7 8 9 10 11 12 <br>
+day of week 1 2 3 4 5 <br>
+command /usr/bin/find/get<br>
 
 
 <hr>
